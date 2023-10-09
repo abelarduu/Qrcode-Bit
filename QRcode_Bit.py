@@ -4,6 +4,7 @@
 from customtkinter import *
 from os.path import dirname
 from PIL import Image
+import pyqrcode
 
 class Master(CTk):
     def __init__(self, width= int, height= int, title= str, resizable= bool):
@@ -12,8 +13,9 @@ class Master(CTk):
         self.title(title)
         self.resizable(resizable,resizable)
         self.iconbitmap(dirname(__file__) +"\\resources/icon.ico")
-        set_appearance_mode("Light")#"dark"
-
+        set_appearance_mode("Light")
+        self.configure(fg_color="#66bcf2")
+        
         self.rowconfigure(7, weight=6)
         self.columnconfigure(3, weight=3)
 
@@ -34,7 +36,6 @@ class Frame(CTkFrame):
         self.btnOk.grid(row=5, column=2,columnspan=3)
 
     def createQRcode(self):
-        import pyqrcode
         link = str(self.linkEntry.get())
         url= pyqrcode.create(link)
         img= url.png('Qrcode.png', scale= 4)
