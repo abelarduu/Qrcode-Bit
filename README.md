@@ -15,6 +15,5 @@
 </div>
 
 <figure>
- <img src="img/interface_p2.png" type="image/png" alt="Interface do Qrcode Bit" height=386><br>
- <figcaption>Aba/Interface do Qrcode Bit Maximizado</figcaption>
+ <img src="img/interface_p2.png" type="image/png" alt="Interface do Qrcode Bit Maximizado" height=386><br>
 </figure>
