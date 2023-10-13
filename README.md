@@ -5,7 +5,7 @@
 
  [![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
  [![](https://img.shields.io/badge/Customtkinter-V.5.1.2-blue?style=for-the-badge&logo=python&logoColor=white)](https://github.com/TomSchimansky/CustomTkinter)
- [![](https://img.shields.io/badge/Pillow-V.8.3.2-blue?style=for-the-badge&logo=python&logoColor=white)](https://github.com/python-pillow/Pillow)
+ [![](https://img.shields.io/badge/Pillow-V.10.0.1-blue?style=for-the-badge&logo=python&logoColor=white)](https://github.com/python-pillow/Pillow)
  [![](https://img.shields.io/badge/Pyqrcode-V.1.2.1-blue?style=for-the-badge&logo=python&logoColor=white)](https://github.com/mnooner256/pyqrcode)
 
 ### Resultado
