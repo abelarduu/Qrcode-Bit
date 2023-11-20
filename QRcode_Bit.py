@@ -9,8 +9,8 @@ import pyqrcode
 class Master(CTk):
     def __init__(self, width: int, height: int, title: str, resizable: bool):
         super().__init__()
-        self.minsize(width,height)
         self.title(title)
+        self.minsize(width,height)
         self.resizable(resizable,resizable)
         self.iconbitmap(dirname(__file__) +"\\resources/icon.ico")
         set_appearance_mode("Light")
