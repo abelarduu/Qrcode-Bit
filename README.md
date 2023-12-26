@@ -1,3 +1,4 @@
+<div align="center">
  <img src="resources/logo.png" type="image/png" alt="Interface do Qrcode Bit">
 
 ### Sobre o projeto
@@ -17,3 +18,4 @@
 <figure>
  <img src="img/interface_p2.png" type="image/png" alt="Interface do Qrcode Bit Maximizado" height=363><br>
 </figure>
+</div>
