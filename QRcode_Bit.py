@@ -31,6 +31,7 @@ class Frame(CTkFrame):
 
         self.btnOk= CTkButton(self, text="Converter", width= 250, command= self.showQrcode)
         self.btnOk.grid(row=4, column=2,columnspan=3, padx=10,pady=10)
+        
     def createQRcode(self):
         link = str(self.linkEntry.get())
         url= pyqrcode.create(link)
@@ -49,7 +50,7 @@ class App:
         self.main= CTkFrame(self.master,fg_color="white")
         self.main.grid(row=3,column=2,rowspan=7, columnspan=3, pady=10)
 
-        self.img =CTkImage(light_image=Image.open(dirname(__file__) +'/resources/logo.png'), size=(250,66))
+        self.img =CTkImage(light_image=Image.open(dirname(__file__) +'/resources/logo.png'), size=(267,64))
         self.imglbl= CTkLabel(self.main, image= self.img, text= None)
         self.imglbl.grid(row=1, column=2, columnspan=3, padx=10, pady=5)
 
