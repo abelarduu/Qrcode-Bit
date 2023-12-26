@@ -2,7 +2,7 @@
  <img src="resources/logo.png" type="image/png" alt="Interface do Qrcode Bit">
 
 ### Sobre o projeto
-  O QRcode Bit é um aplicativo conversor com interface simples e elegante capaz de converter textos/links em qrcode de forma rápida e prática, criado através da linguagem python, utilizando a biblioteca CustomTkinter.
+  O QRcode Bit é um aplicativo conversor com interface simples e elegante capaz de converter textos/links em qrcode de forma rápida e prática, criado através da linguagem python, utilizando a biblioteca CustomTkinter e a Pyqrcode.
 
  [![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
  [![](https://img.shields.io/badge/Customtkinter-V.5.1.2-blue?style=for-the-badge&logo=python&logoColor=white)](https://github.com/TomSchimansky/CustomTkinter)
