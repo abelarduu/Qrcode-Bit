@@ -1,6 +1,3 @@
-############
-#QRcode Bit#
-############
 from customtkinter import *
 from os.path import dirname
 from PIL import Image
