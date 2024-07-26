@@ -1,5 +1,6 @@
 <div align="center">
- <img src="resources/logo.png" type="image/png" alt="Interface do Qrcode Bit">
+ 
+![icon QRcode Bit](img/icon.png)
 
 ### Sobre o projeto
   O QRcode Bit é um aplicativo conversor com interface simples e elegante capaz de converter textos/links em qrcode de forma rápida e prática, criado através da linguagem python, utilizando a biblioteca CustomTkinter e a Pyqrcode.
